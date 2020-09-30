@@ -3,37 +3,37 @@
 
 ## Requisitos
 
- -Node e um gerenciador de pacotes instalado na maquina
- -Docker e docker-compose instalado
+ - Node e um gerenciador de pacotes instalado na maquina
+ - Docker e docker-compose instalado
 
 ## Como iniciar a API
 
- -Entrar na pasta /backend
- -Instalar todas as dependencias do projeto com o comando **npm install** ou **yarn**
- -Subir o container do banco de dados com o comando **docker-compose up postgres**
- -Fazer as migrations do banco de dados com o comando **yarn typeorm migration:run** ou **npx ts-node-dev ./node_modules/typeorm/cli.js migration:run**
- -Iniciar a API com o comando **yarn start** ou **npm start**
+ - Entrar na pasta /backend
+ - Instalar todas as dependencias do projeto com o comando **npm install** ou **yarn**
+ - Subir o container do banco de dados com o comando **docker-compose up postgres**
+ - Fazer as migrations do banco de dados com o comando **yarn typeorm migration:run** ou **npx ts-node-dev ./node_modules/typeorm/cli.js migration:run**
+ - Iniciar a API com o comando **yarn start** ou **npm start**
 
 ## Como iniciar o Front
 
- -Entrar na pasta /web
- -Instalar todas as dependencias do projeto com o comando **npm install** ou **yarn**
- -Subir o Front com o comando **yarn start** ou **npm start**
+ - Entrar na pasta /web
+ - Instalar todas as dependencias do projeto com o comando **npm install** ou **yarn**
+ - Subir o Front com o comando **yarn start** ou **npm start**
 
 ## Principais tecnologias utilizidas no Backend
 
- -Typescript como linguagem
- -Docker para o banco de dados
- -typeorm como ORM
- -Express para o servidor
+ - Typescript como linguagem
+ - Docker para o banco de dados
+ - typeorm como ORM
+ - Express para o servidor
  
 ## Principais tecnologias utilizadas no FrontEnd
 
- -Typescript como linguagem
- -react-router-dom 
- -styled-components para estilizar componentes
- -Material-UI 
- -Axios para conectar com a api
+ - Typescript como linguagem
+ - react-router-dom 
+ - styled-components para estilizar componentes
+ - Material-UI 
+ - Axios para conectar com a api
 
 ## Desafio
 
